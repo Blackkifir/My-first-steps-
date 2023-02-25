@@ -1,36 +1,35 @@
 "use strict";
 
-// let user = [];
 
-// user [0] = prompt('Какое ваше имя');
-// user [1] = prompt('Введите число');
-// user [2] = prompt('Приветствую на своем репозитории');
-// user [3] = prompt('Сколько вам лет?');
+// Цыкл while
+// let user = 13;
+// while (user < 20) {
+//     console.log(user);
+//     user++;
+// }
 
-// console.log(user);
 
-// let question = confirm('Вас зовут Николай, я угадал?');
+// let objectsNumberOne = {
+//     films: {},
+//     serial: {},
+//     privat: false,
+//     google: []
+// }
 
-// let gamers = 'Привет';
-// let  players = ' Как дела?';
-// console.log(gamers + players);
+// let a = prompt('Сколько фильмов видел?', '');
+// let b = prompt('Поставь оценку фильму', '');
+// let c = prompt('Сколько стоит фильм?', '');
+// let d = prompt('Сколько балов поставишь за цену', '');
 
-let numberOfFilms = +prompt('Сколько фильмов вы посмотрели?', '');
+// objectsNumberOne.films[a] = b;
+// objectsNumberOne.serial[c] = d;
 
-let personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
-}
+// console.log(objectsNumberOne);
 
-let a = prompt('Один из последних просмотренних фильмов',  ''); 
-let b = prompt('На сколько оцените фильм', '');
-let c = prompt('Один из последних просмотренних фильмов',  ''); 
-let d = prompt('На сколько оцените фильм', '');
 
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
 
-console.log(personalMovieDB);
+// let user = 10;
+// while(user > 1) {
+//     console.log(user);
+//     user--;
+// }
