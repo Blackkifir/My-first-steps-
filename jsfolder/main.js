@@ -11,6 +11,6 @@ console.log(user);
 
 let question = confirm('Вас зовут Николай, я угадал?');
 
-let user = 'Привет';
+let gamers = 'Привет';
 let  players = ' Как дела?';
-console.log(`user ${players}`);
+console.log(gamers + players);
